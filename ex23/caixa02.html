@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Grouping tags</title>
+    <style>
+      body{
+        background-color: aqua;
+
+      }   
+      main{
+        background-color: aliceblue;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 10px 0px;
+        box-shadow: 4px 4px 9px 0px black;
+        
+      }
+      h1{
+        color: rgb(24, 24, 26);
+
+      }
+      article{
+        background-color: lightgrey;
+      }
+      article > aside {
+        background-color: lightgrey;
+
+      }
+      nav{
+        background-color: aliceblue;
+        padding: 3px;
+      
+      }
+      nav > a{
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        margin-right: 30px;
+      }
+      nav > a:hover{
+        text-decoration: underline;
+      }
+
+      
+      p{
+        font-family: 'Courier New', Courier, monospace;
+      }
+      footer{
+        text-align: center;
+        background-color: black;
+        color: aliceblue;
+        padding: 10px;
+      }
+      footer:hover{
+        text-decoration: underline;
+      }
+      header{
+        background-color: white;
+        padding: 10px;
+        margin: 10px;
+      }
+      div#bola{
+        height: 100px;
+        width: 100px;
+        margin: 10px;
+        background-color: white;
+        border-radius: 50%;
+
+
+
+      }
+    </style>
+    
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="*">Link</a>
+            <a href="*">Link</a>
+            <a href="*">Link</a>
+            <a href="*">Link</a>
+            <a href="*">Link</a>
+            <a href="*">Link</a>
+        </nav>
+
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="Noticias">
+            <article>
+                <h2>Notícias do Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio similique eos, quo ad dolore asperiores deleniti officiis inventore iste, minus, et perspiciatis numquam optio odit? Eligendi, assumenda voluptates! Exercitationem, suscipit!</p>
+                <aside>
+                    <p>Artigo escrito por jose do rego</p>
+                </aside>
+            </article>
+
+        </section>
+
+    </main>
+    <footer>
+        <p>Desenvolvido pelo dev Dangelo</p>
+
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
